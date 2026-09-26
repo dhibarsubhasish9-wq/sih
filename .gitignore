@@ -41,3 +41,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+sqlite-data.json
+checkdb.py
+export-sqlite.py
+
+# Local database and migration helper files
+/prisma/dev.db
+/prisma/dev.db.bak
+/prisma/dev.db.backup
+/import-data.js
+/checkdb.py
+/export-sqlite.py
+/sqlite-data.json
